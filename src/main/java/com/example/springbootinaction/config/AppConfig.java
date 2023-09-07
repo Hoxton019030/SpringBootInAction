@@ -6,7 +6,7 @@ import org.springframework.context.annotation.Configuration;
 
 @Configuration
 public class AppConfig {
-    @Bean(name = "user")
+    @Bean(name = "userBean")
     public User initUser() {
         User user = new User();
         user.setId(1L);
